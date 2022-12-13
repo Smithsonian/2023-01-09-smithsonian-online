@@ -70,6 +70,26 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
+<!-- Noscript content for added SEO -->
+<noscript><a href="https://www.eventbrite.com/e/quarterly-si-library-carpentry-january-2023-tickets-483770800487" rel="noopener noreferrer" target="_blank">Buy Tickets on Eventbrite</a></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-483770800487" type="button">Buy Tickets</button>
+
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
+
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '483770800487',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-483770800487',
+        onOrderComplete: exampleCallback
+    });
+</script>
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
 <iframe
