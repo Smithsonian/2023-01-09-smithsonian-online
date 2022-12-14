@@ -261,8 +261,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <h2 id="registration">Registration</h2>
 
-<strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please check your adblocker settings.</strong>
+<strong>Registration assumes participation for all three days. You can specify days you cannot attend during registration. Registration opens December 19th at 10AM EST.</strong>
 <div id="eventbrite-widget-container-483770800487"></div>
 
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
