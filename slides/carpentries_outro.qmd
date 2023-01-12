@@ -1,0 +1,142 @@
+---
+title: "Carpentry Workshop Wrap-Up"
+format: 
+  revealjs:
+    scrollable: true
+    theme: solarized
+    progress: true
+    center-title-slide: true
+    center: true
+    logo: https://github.com/SmithsonianWorkshops/workshop-slides/raw/main/images/si_carpentries.png
+    
+editor: visual
+---
+
+## Thank You!
+
+Thank you all for your hard work!
+
+Big thanks to our instructors, helpers, and workshop organizer!
+
+## Workshop Recap
+
+**Day 1 -- Unix Shell**
+
+-   the Unix shell is powerful because it has many small commands that can be combined in infinite ways using redirection ("\|" and "\>")
+-   we had a chance to talk about 'wc', 'sort', and 'grep', but 'cut' (for isolating columns), 'uniq' (for finding unique lines in a file), and 'comm' (for finding lines common or different between two files) are three other commands that combine well with them and that I use frequently
+
+## Workshop Recap
+
+**Day 1 -- Unix Shell continued**
+
+-   the shell will only ever do the commands you give it exactly as you give them so be careful especially when deleting things and creating files!
+-   grep is a great tool for finding information based on a keyword search - using regular expressions in your search term makes it even more powerful and flexible
+
+## Helpful Shell Links
+
+-   <https://explainshell.com/> will dissect any shell command you give it and display help for each piece
+-   <https://tldr.sh/> is a great manual tool with short descriptions of shell commands as well as many of the options for them. Also links to more information on each one.
+-   <https://www.shellcheck.net/> will check for any common errors in shell commands that you type in or upload
+
+## Workshop Recap
+
+**Day 2 -- Regular Expressions**
+
+-   Learned about regular expressions (or regex) for pattern matching
+-   Identified potential use cases for regex within the libraries
+-   Worked with common regex metacharacters to find and match strings
+
+## Helpful Regex Links
+
+-   Online regex tool: <https://regex101.com/>
+-   Exercises for practicing:
+    -   <https://librarycarpentry.org/lc-data-intro/03-quiz/index.html>
+    -   <https://librarycarpentry.org/lc-data-intro/04-exercises/index.html>
+-   [HPC Regular Expressions tutorial](https://github.com/SmithsonianWorkshops/HydraResources/blob/master/Regular_Expressions.md)
+
+## Workshop Recap
+
+**Day 2 -- OpenRefine**
+
+-   Use OpenRefine to analyze and edit your 'messy' tabular data easily in a handy GUI
+-   Remember you are working locally and not editing your original file, so export out your finished data to a new file.
+
+## Helpful OpenRefine Links
+
+-   Community Carpentries Chat last month with Adam Gray from HSFA using OpenRefine to wrangle data sets between ArchivesSpace, DAMS, and CDIS. ([Recording](https://web.microsoftstream.com/video/02409be7-32b6-4e05-ad1b-7418c486de49))
+-   Check out the [Data Carpentry OpenRefine lesson](https://datacarpentry.org/OpenRefine-ecology-lesson/) too.
+
+## Workshop Recap
+
+**Day 3 -- GitHub**
+
+-   GitHub is a tool for version control of code and documents that also allows for extensive collaboration.
+
+## Helpful GitHub Links
+
+-   Smithsonian specifics for GitHub: [link](https://miketrizna.github.io/github-without-command-line/smithsonian.html)
+-   Check out the episode on hosting websites on GitHub that we didn't get to: [link](https://miketrizna.github.io/github-without-command-line/websites.html)
+
+## Where to go from here?
+
+> Success is the sum of small efforts, repeated day in and day out. -- Robert Collier
+
+Practice ideas:
+
+-   Your own work at the Smithsonian!
+-   Weekly TidyTuesday Datasets: <https://github.com/rfordatascience/tidytuesday>
+
+## Smithsonian Carpentries Website
+
+<https://datascience.si.edu/carpentries>
+
+![](https://i.imgur.com/5bOXDap.jpeg){.border .border-thick}
+
+## SI Carpentries Email Account
+
+For data and/or Carpentries-related questions: [**Carpentries\@si.edu**](mailto:carpentries@si.edu)
+
+Feel free to email any of the instructors or helpers directly.
+
+## CarpentriesAnnounce Mailing List
+
+For announcements of upcoming SI Carpentries workshops and events: <https://si-listserv.si.edu/cgibin/wa?SUBED1=CARPENTRIESANNOUNCE&A=1>
+
+*Sign-up link is also available on the SI Carpentries Website.*
+
+## #CarpentriesAlumni SlackChannel
+
+1.  Go to <https://smithsonian.slack.com/signup>, and enter your SI email account (must be @si.edu).
+2.  Log in, and add the #carpentries-alumni channel.
+
+## Carpentries Alumni Microsoft Team
+
+You can access the "Carpentries Alumni" Microsoft Team with [this direct link](https://teams.microsoft.com/l/team/19%3aacffb6ba096b4fb0ad93595df6e89220%40thread.tacv2/conversations?groupId=2e7c0abd-0ad8-4de0-bcf3-05af4b99aa38&tenantId=989b5e2a-14e4-4efe-93b7-8cdd5fc5d11c). The "Carpentries Alumni" team is set as a public team, so you should be able to access it via the Teams button on the left sidebar.
+
+## SI Carpentries Community Chat
+
+Monthly lunchtime gatherings to discuss topics relating to Smithsonian Data or Software or Library Carpentry workshop content.
+
+Last Wednesday of every month from 1pm-2pm ET.
+
+Zoom links provided via Carpentries-Announce mailing list and Slack/Teams channels.
+
+Schedule: <https://github.com/SmithsonianWorkshops/carpentries-brown-bag/wiki/Schedule>
+
+Archive of past talks: <https://github.com/SmithsonianWorkshops/carpentries-brown-bag>
+
+## Become an Instructor
+
+Apply to join the SI Carpentries Instructor team! We are always looking for Smithsonian staff and fellows to be trained to join our team of instructors.
+
+No prior teaching experience is necessary, but alumni of the Carpentries workshops would make great candidates.
+
+You can apply at: <https://forms.office.com/r/Qi9xEmhGpY>
+
+*(This link also exists as a big blue button on the SI Carpentries website.)*
+
+## The End!
+
+Please keep in touch with us and let us know how you use your new skills!
+
+Are there any questions about the material we covered in this workshop or about Carpentries at the Smithsonian?
